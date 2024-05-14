@@ -175,7 +175,7 @@ const action = useAction(await initialize<actionType>({
         to: createSerializeOutput('xml'),
         to_object: getToObjectOption('')
     }
-}, {paste: false}))
+}, ))
 
 let toObjectOpen = $ref(false)
 
