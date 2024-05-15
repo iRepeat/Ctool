@@ -59,9 +59,9 @@ router.beforeResolve((to) => {
             is = true
             return false
         }
-        report({_t: meta.type, _c: category, _n: meta.tool, _f: meta.feature, _p: to.name || ""})
+        // report({_t: meta.type, _c: category, _n: meta.tool, _f: meta.feature, _p: to.name || ""})
     } else {
-        report({_t: meta.type, _p: to.name || ""})
+        // report({_t: meta.type, _p: to.name || ""})
     }
 })
 

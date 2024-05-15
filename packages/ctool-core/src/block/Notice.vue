@@ -76,6 +76,7 @@ const load = () => {
     if (lists !== null) {
         return init(lists)
     }
+    /*
     try {
         // 远程加载
         axios.get<{ code: number, data: ItemType[], info: string }>('https://www.baiy.org/chrome_tool/notice/', {
@@ -102,6 +103,7 @@ const load = () => {
         });
     } catch (e) {
     }
+     */
 }
 
 const open = (item: ItemType) => {
