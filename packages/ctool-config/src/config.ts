@@ -186,6 +186,10 @@ export let _tools = {
     urlParse: {
         feature: ['urlParse'],
         parent_directory: ""
+    },
+    ugly: {
+        feature: ['ugly'],
+        parent_directory: ""
     }
 } as const;
 
@@ -195,7 +199,7 @@ export const _categoryTool: Record<CategoryType, ToolType[]> = {
     check: ["sign", "regex", "diffs", "crontab", "bcrypt", "dataValidation"],
     encoder_decoder: ["base64", "url", "unicode", "jwt", "hexString", "html", "gzip"],
     conversion: ["json", "pinyin", "radix", "serialize", "unit", "time", "ascii", "variableConversion", "hexString", "arm", "httpSnippet", "color", "urlParse"],
-    generate: ["qrCode", "barcode", "randomString", "uuid", "binary", "ipcalc", "sqlFillParameter", "httpSnippet"],
+    generate: ["qrCode", "barcode", "randomString", "uuid", "binary", "ipcalc", "sqlFillParameter", "httpSnippet", "ugly"],
     other: ["ip", "code", "websocket", "unit", "text"]
 }
 
