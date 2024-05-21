@@ -56,7 +56,9 @@
             "dangerousRemoteDomainIpcAccess": [
                 {
                     "domain": "ctool.dev",
-                    "windows": ["main"],
+                    "windows": [
+                        "main"
+                    ],
                     "enableTauriAPI": true
                 }
             ]
@@ -67,10 +69,11 @@
         "windows": [
             {
                 "fullscreen": false,
-                "height": 650,
+                "height": 750,
                 "resizable": true,
                 "title": "Ctool 程序开发常用工具",
-                "width": 900
+                "width": 1080,
+                "center": true
             }
         ]
     }
