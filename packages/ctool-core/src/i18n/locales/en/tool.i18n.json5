@@ -89,5 +89,7 @@
     "gzip_encoder": "Encoder",
     "gzip_decoder": "Decoder",
     "urlParse": "Url Parse",
-    "ugly": "Ugly Avatar"
+    "ugly": "Ugly Avatar",
+    "asn1": "ASN.1 Decode",
+    "dockerCompose": "Docker run to Compose",
 }
